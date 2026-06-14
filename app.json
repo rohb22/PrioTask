@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "PrioTask",
+    "slug": "PrioTask",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/android/play_store_512.png",
+    "scheme": "priotask",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/ios/AppIcon-29.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#9d00ff",
+        "foregroundImage": "./assets/android/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+        "backgroundImage": "./assets/android/res/mipmap-xxxhdpi/ic_launcher_background.png",
+        "monochromeImage": "./assets/android/res/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.PrioTask"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/android/play_store_512.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#9d00ff",
+          "android": {
+            "image": "./assets/android/play_store_512.png",
+            "imageWidth": 76
+          }
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
